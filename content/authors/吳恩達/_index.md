@@ -1,12 +1,16 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: 吳恩達
+
+# Username (this should match the folder name)
+authors:
+  - 吳恩達
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Python Instructor
+role: R Instructor
 
 # Organizations/Affiliations
 organizations:
@@ -50,9 +54,6 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

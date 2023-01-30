@@ -6,20 +6,20 @@
 # Appearance
 
 appearance:
-  theme_day: mytheme
-  theme_night: minimal
-  font: my_font_set
-  font_size: M
+  theme_day: custom
+  theme_night:
+  font: minimal
+  font_size: L
 
 # SEO
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: ''
-    twitter: ''
+    description: 'A highly-customizable Hugo learning theme powered by Wowchemy website builder.'
+    twitter: 'wowchemy'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,18 +32,20 @@ marketing:
 header:
   navbar:
     enable: true
-    align: r
+    align: l
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: false
+    show_search: true
     highlight_active_link: true
+
+# Site footer
 
 footer:
   copyright:
-    notice: '© 2021-2022 Zhenxuan Wang'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
-      enable: false
+      enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -53,7 +55,6 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-  address_format: en-us
 
 # Site features
 
@@ -62,21 +63,15 @@ features:
     enable: true
     extra_languages:
       - r
-      - python
       - latex
   math:
-    enable: true
-  diagram:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/wowchemy/starter-hugo-online-course'
     content_dir: content
-    branch: master
-  avatar:
-    gravatar: false
-    shape: circle
+    branch: main
   comment:
     provider: ''
     disqus:
@@ -91,25 +86,10 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
-  map:
-    provider: mapnik
-    api_key: ''
-    zoom: 15
-
-# media sharing
-#sharing: true
-
-# Extensions
 
 extensions:
   cms:
     branch: main
     local_backend: false
   academicons:
-    enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+    enable: false

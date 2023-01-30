@@ -1,56 +1,41 @@
 ---
 # An instance of the Contact widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
 widget: contact
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 0
+weight: 10
 
-title: 
+title: Contact
 subtitle:
 
 content:
+  # Contact (edit or remove options as required)
+  email: test@example.org
+  appointment_url: 'https://calendly.com'
+  contact_links:
+    - icon: comments
+      icon_pack: fas
+      name: Discuss on the forum
+      link: 'https://github.com/wowchemy/wowchemy-hugo-themes/discussions'
+
   # Automatically link email and phone or display as text?
   autolink: true
-  
-  # # Email form provider
-  # form:
-  #   provider: netlify
-  #   formspree:
-  #     id:
-  #   netlify:
-  #     # Enable CAPTCHA challenge to reduce spam?
-  #     captcha: false
 
-  # Contact details (edit or remove options as required)
-  email: zhenxuan.wang@duke.edu
-  # phone: 888 888 88 88
-  address:
-    street: 9 Circuit Drive
-    city: Durham
-    region: NC
-    postcode: '27705'
-    country: United States
-    country_code: US
-  coordinates:
-    latitude: '36.0032'
-    longitude: '-78.9437'
-  directions: Enter the Grainger Hall and take the stairs to the 4th floor
-  office_hours:
-    - 'Wednesday 09:00 to 11:00'
-  # appointment_url: 'https://calendly.com'
-  contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/zhenxuan_wang'
-    # - icon: video
-    #   icon_pack: fas
-    #   name: Zoom Me
-    #   link: 'https://zoom.com'
+  # Email form provider
+  form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
 
 design:
-  columns: '2'
+  columns: '1'
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
