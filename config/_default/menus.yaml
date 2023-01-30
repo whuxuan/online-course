@@ -5,22 +5,37 @@
 
 main:
   - name: Home
-    url: '/'
+    url: '#about'
     weight: 10
-  - name: Courses
+  - name: CV
+    url: 'cv/'
     weight: 20
-    identifier: courses
-  - name: Data science
-    PageRef: course/data-science/_index.md
-    weight: 10
-    parent: courses
-  - name: Robotics
-    PageRef: course/robotics/_index.md
-    weight: 20
-    parent: courses
-  - name: Blog
-    PageRef: post/_index.md
+  - name: Research
+    url: 'research/'
     weight: 30
+  - name: Teaching
+    url: 'teaching/'
+    weight: 40
+  - name: Resources
+    url: 'resource/'
+    weight: 50
   - name: Contact
-    PageRef: contact/index.md
+    url: 'contact/'
     weight: 60
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
+
+
+# - name: Posts
+#   url: '#posts'
+#   weight: 20
+# - name: Projects
+#   url: '#projects'
+#   weight: 30
+# - name: Talks
+#   url: '#talks'
+#   weight: 40
